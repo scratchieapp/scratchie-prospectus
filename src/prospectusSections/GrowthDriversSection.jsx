@@ -13,11 +13,11 @@ const GrowthDriversSection = () => (
             </div>
             <h3 className="text-xl font-semibold">Construction Industry</h3>
           </div>
-          <ul className="space-y-2 text-gray-600 w-full">
-            <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" /><span>Launch at FCON Brisbane (May 19) to 700+ industry leaders</span></li>
-            <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" /><span>Medium sites (200-300 workers): $1,000-$1,500 monthly revenue each</span></li>
-            <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" /><span>Large sites (500-600 workers): $2,500-$3,000 monthly revenue each</span></li>
-            <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" /><span>5% commission on rewards (avg. $10/user/month)</span></li>
+          <ul className="space-y-2 text-gray-600 w-full text-left">
+            <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" /><span className="text-left">Launch at FCON Brisbane (May 19) to 700+ industry leaders</span></li>
+            <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" /><span className="text-left">Medium sites (200-300 workers): $1,000-$1,500 monthly revenue each</span></li>
+            <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" /><span className="text-left">Large sites (500-600 workers): $2,500-$3,000 monthly revenue each</span></li>
+            <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" /><span className="text-left">5% commission on rewards (avg. $10/user/month)</span></li>
           </ul>
         </div>
         <div className="border border-gray-200 rounded-lg p-5 hover:shadow-md transition-shadow">

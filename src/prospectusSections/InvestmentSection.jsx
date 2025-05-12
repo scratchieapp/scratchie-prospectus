@@ -20,42 +20,42 @@ const InvestmentSection = () => (
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <h3 className="text-xl font-bold text-gray-800 mb-4">Why Invest Now?</h3>
-          <div className="space-y-4">
+          <h3 className="text-xl font-bold text-gray-800 mb-4 text-center">Why Invest Now?</h3>
+          <div className="space-y-4 text-left">
             <div className="flex">
               <div className="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-green-100 text-green-600 mt-0.5 mr-4">
                 <Check className="h-4 w-4" />
               </div>
-              <div>
-                <h4 className="text-lg font-medium text-gray-800">McDonald's Validation</h4>
-                <p className="text-gray-600 mt-1">Phase 2 rollout across 10 stores with pathway to 1,000 stores nationally</p>
+              <div className="text-left">
+                <h4 className="text-lg font-medium text-gray-800 text-left">McDonald's Validation</h4>
+                <p className="text-gray-600 mt-1 text-left">Phase 2 rollout across 10 stores with pathway to 1,000 stores nationally</p>
               </div>
             </div>
             <div className="flex">
               <div className="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-green-100 text-green-600 mt-0.5 mr-4">
                 <Check className="h-4 w-4" />
               </div>
-              <div>
-                <h4 className="text-lg font-medium text-gray-800">Proven Product</h4>
-                <p className="text-gray-600 mt-1">Scratchie 2.0 is more scalable, secure, reliable, with innovative features like Convo Card</p>
+              <div className="text-left">
+                <h4 className="text-lg font-medium text-gray-800 text-left">Proven Product</h4>
+                <p className="text-gray-600 mt-1 text-left">Scratchie 2.0 is more scalable, secure, reliable, with innovative features like Convo Card</p>
               </div>
             </div>
             <div className="flex">
               <div className="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-green-100 text-green-600 mt-0.5 mr-4">
                 <Check className="h-4 w-4" />
               </div>
-              <div>
-                <h4 className="text-lg font-medium text-gray-800">Clear Revenue Model</h4>
-                <p className="text-gray-600 mt-1">$5 per user/month subscription + 5% commission on rewards</p>
+              <div className="text-left">
+                <h4 className="text-lg font-medium text-gray-800 text-left">Clear Revenue Model</h4>
+                <p className="text-gray-600 mt-1 text-left">$5 per user/month subscription + 5% commission on rewards</p>
               </div>
             </div>
             <div className="flex">
               <div className="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-green-100 text-green-600 mt-0.5 mr-4">
                 <Check className="h-4 w-4" />
               </div>
-              <div>
-                <h4 className="text-lg font-medium text-gray-800">Multiple Growth Vectors</h4>
-                <p className="text-gray-600 mt-1">Construction, QSR, platform integrations, and potential international expansion</p>
+              <div className="text-left">
+                <h4 className="text-lg font-medium text-gray-800 text-left">Multiple Growth Vectors</h4>
+                <p className="text-gray-600 mt-1 text-left">Construction, QSR, platform integrations, and potential international expansion</p>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ const InvestmentSection = () => (
             </div>
           </div>
           <div className="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-            <h4 className="font-medium text-yellow-800 flex items-center">
+            <h4 className="font-medium text-yellow-800 flex items-center justify-center text-center">
               <Clock className="h-5 w-5 mr-2" />
               Time-Sensitive Opportunity
             </h4>

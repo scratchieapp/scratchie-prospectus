@@ -8,9 +8,9 @@ const RisksSection = ({ risksData }) => {
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Risk Assessment</h2>
         
         <div className="mb-8 bg-red-50 p-6 rounded-lg border border-red-200">
-          <div className="flex items-center mb-4">
+          <div className="flex items-center mb-4 justify-center">
             <AlertTriangle className="h-6 w-6 text-red-600 mr-2" />
-            <h3 className="text-xl font-bold text-red-800">Honest Risk Disclosure</h3>
+            <h3 className="text-xl font-bold text-red-800 text-center">Honest Risk Disclosure</h3>
           </div>
           <p className="text-gray-700 mb-2">
             We believe transparency is essential, especially with friends and family investors. 
@@ -25,22 +25,21 @@ const RisksSection = ({ risksData }) => {
         <div className="grid md:grid-cols-2 gap-6 items-start">
           {risksData.map((category, index) => (
             <div key={index} className="border border-gray-200 rounded-lg p-5">
-              <div className="flex items-center mb-4">
+              <div className="flex items-center mb-4 justify-center">
                 <div className={`p-3 rounded-full mr-4 ${category.bgColor}`}>
                   <category.icon className={`h-6 w-6 ${category.iconColor}`} />
                 </div>
-                <h3 className="text-xl font-semibold">{category.title}</h3>
+                <h3 className="text-xl font-semibold text-center w-full">{category.title}</h3>
               </div>
-              
-              <ul className="space-y-3">
+              <ul className="space-y-3 text-left">
                 {category.risks.map((risk, riskIndex) => (
-                  <li key={riskIndex} className="flex items-start">
+                  <li key={riskIndex} className="flex items-start text-left">
                     <div className="flex-shrink-0 h-5 w-5 text-red-500 mr-2 mt-0.5">•</div>
-                    <div>
-                      <p className="font-medium text-gray-800">{risk.title}</p>
-                      <p className="text-sm text-gray-600">{risk.description}</p>
+                    <div className="text-left">
+                      <p className="font-medium text-gray-800 text-left">{risk.title}</p>
+                      <p className="text-sm text-gray-600 text-left">{risk.description}</p>
                       {risk.mitigation && (
-                        <p className="text-sm text-green-600 mt-1">
+                        <p className="text-sm text-green-600 mt-1 text-left">
                           <span className="font-medium">Mitigation: </span>{risk.mitigation}
                         </p>
                       )}
